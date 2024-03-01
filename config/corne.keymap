@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+#define DEFAULT 0-base
+#define LOWER   1-numbers
+#define RAISE   2-symbols
+
 / {
     macros {
         cd_home: cd_home {
