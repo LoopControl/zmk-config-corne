@@ -76,14 +76,14 @@
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+            // | SHFT | F24 |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Raise";
+            display-name = "Raise v2";
             bindings = <
 &kp TAB    &kp EXCL           &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY   &kp LPAR           &kp RPAR     &kp BSPC
 &kp LCTRL  &ext_power EP_TOG  &trans  &trans    &trans    &trans       &kp LEFT   &kp DOWN   &kp UP            &kp RIGHT          &kp HOME     &kp END
-&kp LSHFT  &trans             &trans  &trans    &trans    &trans       &kp PLUS   &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP  &kp PAGE_DOWN
+&kp LSHFT  &kp F24            &trans  &trans    &trans    &trans       &kp PLUS   &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP  &kp PAGE_DOWN
                                       &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp DEL
             >;
         };
